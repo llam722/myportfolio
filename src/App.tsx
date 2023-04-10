@@ -16,7 +16,7 @@ function App() {
       </div>
         <section className='bio'>
         <h2>
-        Software engineer, tinkerer, and PC enthusiast.
+        Software engineer 🧑‍💻, tinkerer 🛠 , and tech enthusiast 🖥️
         </h2>
         <p>
         I'm Louis, a software engineer and entrepreneur based in New York City, with a drive to contribute to open-source projects, attend tech events, and empower the development community. Currently, I'm contributing to <a href="https://github.com/open-source-labs/reactime" target='_blank' rel='noreferrer'>Reactime</a> and developing a Notion integration.

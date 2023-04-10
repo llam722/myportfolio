@@ -18,7 +18,7 @@ margin-bottom: calc(2rem * 1);
 .projects h4 {
   font-size: 1rem;
   margin: 0;
-  color: gray;
+  color: rgb(100, 100, 100);
 }
 
 .textbox {
@@ -27,7 +27,7 @@ margin-bottom: calc(2rem * 1);
   line-height: 1.5;
 }
 
-.projects .reactime:hover {
+.projects article:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -38,41 +38,26 @@ margin-bottom: calc(2rem * 1);
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-   gap: 1rem;
+  gap: 1rem;
   font-size: 1rem;
 }
 
 .projects img {
-  margin: 2rem 0 2rem 0;
-  border-left: 1px solid aqua;
-  border-top: 1px solid aqua;
+  margin-top: 1rem;
   border-radius: 25px;
+  object-fit: cover;
   width: 100%;
 }
 
 .projects video {
-  margin: 2rem 0 4rem 0;
-  border-left: 1px solid aqua;
-  border-top: 1px solid aqua;
+  margin-top: 1rem;
   border-radius: 25px;
-  padding: 1rem;
-  max-width: 50vh;
+  width: 100%;
 }
 
-.reactime {
+.work {
   border-radius: 15px;
   padding: 1rem;
 }
 
-@media (min-width: 550px) {
 
-} 
-
-@media (max-width:549px) {
-  .projects video {
-    width: 100%;
-  }
-  .projects img {
-    width: 100%;
-  }
-}
