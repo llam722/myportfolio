@@ -52,7 +52,6 @@
   gap: 2rem;
   max-width: 1050px;
   padding: 1rem;
-  border: 1px solid red;
 }
 
 .picture-div img {
@@ -61,25 +60,33 @@
   border-radius: 10px;
   object-fit: cover;
   transform: rotate(-2deg);
-  border: 1px solid red;
 }
-
 
 .picture-div img:first-child {
-  transform: rotate(4deg);
-}
-.picture-div img:nth-child(3) {
-  transform: rotate(4deg);
+  transform: rotate(2deg);
 }
 
+.picture-div img:nth-child(3) {
+  transform: rotate(2deg);
+}
 
 @media (min-width: 550px) {
   .Nav-bar {
     width: 50%;
     gap: .5rem
   }
+
   .App {
     max-width: 800px;
     margin: 0 auto;
   }
+  .profile-pic {
+    width: 15vh;
+  }
 } 
+
+@media (max-width:549px) {
+  .App {
+    overflow-x: hidden;
+  }
+}

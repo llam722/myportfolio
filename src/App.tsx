@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './Nav';
 import Footer from './Footer'
+import Projects from './Projects'
 
 function App() {
   return (
@@ -27,9 +28,8 @@ function App() {
         <img alt='laptop coffee' src='./laptop-coffee.jpg'></img>
         <img alt='watercooled pc' src='./watercooling.jpg'></img>
         <img alt='notion stickers' src='./Notion-stickers.jpg'></img>
-        {/* <img alt='notion stickers' src='./Notion-nametag.jpg'></img> */}
-      </div>
-      
+        </div>
+        <Projects/>
       <Footer/>
       </div>
     </>
