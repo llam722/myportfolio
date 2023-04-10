@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  padding: .5rem 0;
+  border-top: 1px solid grey;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color:aqua;
+  border-bottom: 1px solid aqua;
+}

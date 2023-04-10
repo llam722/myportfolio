@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav';
+import Footer from './Footer'
 
 function App() {
   return (
@@ -12,14 +13,20 @@ function App() {
           <img alt='profile' src='./profilepic.png' />
           </a>
         </div>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h2>
-          Software Engineer, tinkerer, and PC enthusiast.
+          Software engineer, tinkerer, and PC enthusiast.
         </h2>
         <p>
-          I'm Louis, a software engineer and entrepreneur based in New York City. I have a passion for contributing to open source products and improving the developer community.
-        </p>
+          I'm Louis, a New York City-based software engineer and entrepreneur with a passion for contributing to open-source products, attending tech-talks/events and advancing the developer community. Current contributor of Reactime and developing a Notion Integration.
+      </p>
       </header>
+      <div className='picture-div'>
+        <img alt='notion event' src='./Notion-event.jpg'></img>
+        <img alt='laptop coffee' src='./laptop-coffee.jpg'></img>
+        <img alt='watercooled pc' src='./watercooling.jpg'></img>
+        <img alt='notion stickers' src='./Notion-stickers.jpg'></img>
+      </div>
+      <Footer/>
     </div>
   );
 }
