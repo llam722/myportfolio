@@ -11,7 +11,7 @@ const Projects = () => {
       <article className="work">
 
         <div className="text">
-          <h3><a href="https://www.reacti.me/">Reactime</a></h3>
+          <h3 className='reactime'><a href="https://www.reacti.me/" target='_blank' rel='noreferrer'>Reactime</a></h3>
           <h4>State Management and Debugging Tool for React</h4>
           <p className="textbox">
             Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track,

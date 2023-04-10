@@ -60,4 +60,8 @@ margin-bottom: calc(2rem * 1);
   padding: 1rem;
 }
 
+.reactime a {
+  text-decoration: none;
+  color: black;
+}
 
