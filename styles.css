@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family:  var(--mont);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
