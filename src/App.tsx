@@ -18,7 +18,7 @@ function App() {
           Software engineer, tinkerer, and PC enthusiast.
         </h2>
         <p>
-          I'm Louis, a New York City-based software engineer and entrepreneur with a passion for contributing to open-source products, attending tech-talks/events and advancing the developer community. Current contributor of <a href="https://github.com/open-source-labs/reactime" target='_blank' rel='noreferrer'>Reactime</a> and developing a Notion Integration.
+          I'm Louis, a software engineer and entrepreneur based in New York City, with a drive to contribute to open-source projects, attend tech events, and empower the development community. Currently, I'm contributing to <a href="https://github.com/open-source-labs/reactime" target='_blank' rel='noreferrer'>Reactime</a> and developing a Notion integration.
       </p>
       </section>
       </header>
