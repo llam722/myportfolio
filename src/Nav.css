@@ -1,0 +1,34 @@
+/* .Nav {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+/* } */
+
+.Nav-bar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 30px;
+  margin: 1.5rem auto;
+  padding: 0rem .5rem;
+}
+
+.Nav-bar a {
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+  background-color: var(--magenta);
+  color: var(--white);
+  padding: 0.5rem;
+  border-radius: 5px;
+
+}
+
+/* .button:hover {
+  color: var(--white);
+  background-color: var(--hotmag)
+} */
