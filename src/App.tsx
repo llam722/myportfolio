@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import './App.css';
 import About from './About'
 import Home from './Home'
@@ -11,7 +11,7 @@ function App() {
         <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/contact' element={<Contact />} />
         </Routes>
       </div>
   );

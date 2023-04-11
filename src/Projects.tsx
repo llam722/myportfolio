@@ -20,16 +20,6 @@ const Projects = () => {
             time-travel using a fabricated history stack
             to previous states of their applications.
           </p>
-          {/* <h4>Technologies used include:</h4>
-          <ul>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>(Airbnb Visx – D3.js)</li>
-            <li>Jest</li>
-            <li>Travis CI</li>
-            <li>Webpack</li>
-          </ul> */}
         </div>
 
         <img src="https://github.com/open-source-labs/reactime/raw/master/assets/new-reactime.gif"
@@ -50,17 +40,6 @@ const Projects = () => {
             keep track and manage their tasks as necessary. Management of state is divided into three columns,
             respective of their progress.
           </p>
-          {/* <h4>Technologies used include:</h4>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>SASS</li>
-            <li>Jest</li>
-            <li>Webpack</li>
-          </ul> */}
         </div>
 
         <video autoPlay loop muted
@@ -79,17 +58,6 @@ const Projects = () => {
             matches you with your coterie, so you'll never have to play alone
             again. Think Tinder, but for sports!
           </p>
-          {/* <h4>Technologies used include:</h4>
-          <ul>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>SQL</li>
-            <li>SASS</li>
-            <li>OAuth 2.0</li>
-            <li>Vite</li>
-          </ul> */}
         </div>
 
         <video className='scrumify' autoPlay loop muted
