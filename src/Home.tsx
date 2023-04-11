@@ -29,7 +29,7 @@ const Home = () => {
         <img alt='notion event' src='./Notion-event.jpg'></img>
         <img alt='laptop coffee' src='./laptop-coffee.jpg'></img>
         <img alt='watercooled pc' src='./watercooling.jpg'></img>
-        <img alt='notion stickers' src='./notion-stickers.jpg'></img>
+        <img alt='notion sticker' src='./notion-sticker.jpg'></img>
         </div>
         </div>
         <Projects/>
