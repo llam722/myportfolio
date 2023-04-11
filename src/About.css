@@ -88,8 +88,12 @@
   transform: rotate(2deg);
 }
 
-.about-me-pic :nth-child(2) {
+.about-me-pic img:nth-child(2) {
   transform: rotate(-2deg);
+}
+
+.about-me-pic .hunter {
+transform: rotate(2deg) !important;
 }
 
 .asus-setup {
