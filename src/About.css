@@ -62,7 +62,7 @@
 }
 
 .about-me img {
-  margin-top: 1.5rem;
+  margin: 1rem;
   max-width: 95%;
   max-height: 40%;
   object-fit: cover;

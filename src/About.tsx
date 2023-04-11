@@ -28,7 +28,7 @@ const About = () => {
             I pride myself on my attention to detail and ability to find creative solutions to complex problems. In my free time, I enjoy perusing new projects or technology and contributing to open-source projects. I'm excited to continue building innovative software solutions and pushing the boundaries of what's possible.
           </p>
           <br/>
-            <h4>Random facts:</h4>
+            <h4>Fun Facts:</h4>
           <ul>
             <li>
             MBTI – ISTP (Virtuoso)
@@ -37,7 +37,10 @@ const About = () => {
               Pet – Hunter (Pitbull)
             </li>
             <li>
-              Favorite food – Sushi
+              Food – Sushi, Hotpot, Italian
+            </li>
+            <li>
+              Books – Atomic Habits
             </li>
           </ul>
           <img alt='la jolla' src="./la-jolla.png" />
