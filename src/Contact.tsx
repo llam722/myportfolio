@@ -22,7 +22,7 @@ const Contact = () => {
             </p>
         </div>
         <div className="connect-pic">
-          <img alt='computer setup' src="./cat-laptop.jpg" />
+          <img alt='cat laptop' src="./cat-laptop.jpg" />
         </div>
       </section>
       <Footer/>
