@@ -60,9 +60,9 @@ const Projects = () => {
           </p>
         </div>
 
-        <video className='scrumify' autoPlay loop muted onContextMenu={(e) => e.preventDefault()}
+        {/* <video className='scrumify' autoPlay loop muted onContextMenu={(e) => e.preventDefault()}
           src="https://res.cloudinary.com/djnwvbzzr/video/upload/v1676326963/Scrumify/Sidekickdemo_vxsfwu.mov"
-        />
+        /> */}
 
       </article>
     </section>
