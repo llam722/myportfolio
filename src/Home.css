@@ -133,6 +133,7 @@
 
 @media (max-width:639px) {
   .Home {
+    max-width: 100vw;
     overflow-x: hidden;
   }
   .picture-div img {
