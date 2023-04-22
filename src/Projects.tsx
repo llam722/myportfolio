@@ -54,15 +54,24 @@ const Projects = () => {
           <h3>Sidekick</h3>
           <h4>Pairing up sport enthusiasts</h4>
           <p className="textbox">
-            Looking for your Player 2? Tired of asking friends who aren't interested in the same sports? Sidekick
-            matches you with your coterie, so you'll never have to play alone
-            again. Think Tinder, but for sports!
+            Sidekick is the ultimate solution for finding your perfect sports partner. Similar to Tinder, but specifically designed for sports enthusiasts, Sidekick connects you with like-minded individuals who share your passion for the same activities. No more searching for a Player 2 or struggling to find teammates; with Sidekick, you'll never have to play alone again.
           </p>
         </div>
 
         {/* <video className='scrumify' autoPlay loop muted onContextMenu={(e) => e.preventDefault()}
           src="https://res.cloudinary.com/djnwvbzzr/video/upload/v1676326963/Scrumify/Sidekickdemo_vxsfwu.mov"
         /> */}
+
+      </article>
+        <article className="work">
+
+        <div className="text">
+          <h3>Taskful</h3>
+          <h4>Task organizer</h4>
+          <p className="textbox">
+            Taskful is an innovative task organizer designed to streamline household chores and make them more engaging. Users can select tasks from a central board, each with its own point value and categorized priority, which are then added to their personal profiles. Taskful's intuitive login and task-selection process ensure a seamless, enjoyable experience as users tackle their daily household duties.
+          </p>
+        </div>
 
       </article>
     </section>
