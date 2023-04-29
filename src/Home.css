@@ -67,9 +67,9 @@
     max-width: 1200px;
     margin: 0 auto;
   }
-  .profile-pic {
-    width: 15vh;
-  }
+  .bio {
+  width: 75%;
+}
   .picture-div-container {
   margin-top: 4rem;
 }
