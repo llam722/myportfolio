@@ -31,6 +31,10 @@
   color: black;
 }
 
+.bio a {
+  text-decoration: none;
+}
+
 .picture-div-container {
   margin-top: 4rem;
 }
