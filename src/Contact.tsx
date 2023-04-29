@@ -1,12 +1,9 @@
 import './Contact.css'
 import Nav from './Nav';
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
-    <>
-        <Nav/>
       <div className="Contact">
         <div className="header">
             <h1>Collaborate to Innovate – </h1>
@@ -23,7 +20,6 @@ const Contact = () => {
         </section>
         <Footer/>
       </div>
-    </>
   )
 }
 

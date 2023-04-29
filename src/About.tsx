@@ -1,12 +1,10 @@
-import { Link } from "react-router-dom";
-import Nav from './Nav'
+
 import Footer from './Footer'
 import './About.css'
 
 const About = () => {
   return (
-    <>
-      <Nav/>
+
     <div className="About">
         <div className="asus-setup">
           <img alt='computer setup' src="./asus-setup.jpg" />
@@ -52,7 +50,6 @@ const About = () => {
       </section>
       <Footer/>
       </div>
-      </>
   )
 }
 

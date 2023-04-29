@@ -7,11 +7,7 @@ import Footer from './Footer';
 
 const Home = () => {
   return (
-     <>
-        <Nav />
       <div className="Home">
-        
-        
         <section className='bio'>
         <h1>
         Software engineer 🧑‍💻, tinkerer 🛠 , and tech enthusiast 🖥️
@@ -31,7 +27,6 @@ const Home = () => {
         <Projects/>
       <Footer/>
       </div>
-      </>
   )
 }
 
