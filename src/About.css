@@ -14,8 +14,8 @@
 }
 
 .About a:hover {
-   color:aqua;
-  border-bottom: 1px solid aqua;
+   color:rgb(180, 18, 216);
+  /* border-bottom: 1px solid aqua; */
 }
 
 .profile-pic-container {
