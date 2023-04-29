@@ -4,14 +4,20 @@ import './Nav.css'
 
 const Nav = () => {
   return (
-    <nav className='Nav'>
+    <nav>
+      
       <ul className="Nav-bar">
-        <Link to='/about'>
-        <li>About</li>
-        </Link>
-        <Link to='/contact'>
-        <li>Contact</li>
-        </Link>
+        <li>
+          <Link to='/' className='profile-pic'>
+          <img alt='profile' src='./profilepic.png' />
+          </Link>
+        </li>
+        <li><Link to='/about'>
+        About
+        </Link></li>
+        <li><Link to='/contact'>
+        Contact
+        </Link></li>
         {/* <li><a href='.projects'>Projects</a></li> */}
          <li><a href='https://www.linkedin.com/in/louis-lam7/' target='_blank' rel="noreferrer">
           <i className="fa-brands fa-linkedin" aria-hidden='true'></i>

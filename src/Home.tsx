@@ -8,13 +8,9 @@ import Footer from './Footer';
 const Home = () => {
   return (
      <>
-      <div className="Home">
         <Nav />
-        <div className="profile-pic-container">
-          <Link to='/' className='profile-pic'>
-          <img alt='profile' src='./profilepic.png' />
-          </Link>
-        </div>
+      <div className="Home">
+        
         
         <section className='bio'>
         <h2>

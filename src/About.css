@@ -107,10 +107,6 @@ transform: rotate(2deg) !important;
 }
 
 @media (min-width: 640px) {
-  .Nav-bar {
-    width: 50%;
-    gap: .5rem;
-  }
 
   .About {
     max-width: 1200px;
@@ -125,10 +121,6 @@ transform: rotate(2deg) !important;
 } 
 
 @media (min-width: 640px) and (max-width:912px) {
-  .Nav-bar {
-    width: 50%;
-    gap: .5rem;
-  }
 
   .About {
     max-width: 800px;
