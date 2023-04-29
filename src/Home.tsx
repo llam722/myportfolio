@@ -1,8 +1,5 @@
-import { Link } from 'react-router-dom'
 import './Home.css';
-import Nav from './Nav';
 import Projects from './Projects';
-import Footer from './Footer';
 
 
 const Home = () => {
@@ -25,7 +22,6 @@ const Home = () => {
         </div>
         </div>
         <Projects/>
-      <Footer/>
       </div>
   )
 }

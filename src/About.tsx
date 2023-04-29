@@ -1,5 +1,3 @@
-
-import Footer from './Footer'
 import './About.css'
 
 const About = () => {
@@ -48,7 +46,6 @@ const About = () => {
 
       
       </section>
-      <Footer/>
       </div>
   )
 }

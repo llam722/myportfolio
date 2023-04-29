@@ -1,6 +1,4 @@
 import './Contact.css'
-import Nav from './Nav';
-import Footer from './Footer';
 
 const Contact = () => {
   return (
@@ -18,7 +16,6 @@ const Contact = () => {
             <img alt='cat laptop' src="./cat-laptop.jpg" />
           </div>
         </section>
-        <Footer/>
       </div>
   )
 }

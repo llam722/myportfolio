@@ -1,9 +1,10 @@
 footer {
   text-align: center;
   padding: .5rem 0;
-  border-top: 1px solid grey;
+  border-top: 1px solid rgba(139, 137, 137, 0.502);
   width: 100%;
-  margin-top: 8rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 footer ul {
@@ -29,3 +30,10 @@ footer a:hover {
   color:rgb(180, 18, 216);
   /* border-bottom: 1px solid aqua; */
 }
+
+/* @media (min-width: 550px) {
+  footer {
+    max-width: 1200px;
+    
+  }
+} */
