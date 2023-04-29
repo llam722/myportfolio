@@ -1,6 +1,7 @@
 nav {
-  border: 1px solid red;
+  border-bottom: 1px solid rgba(139, 137, 137, 0.502);
   padding: 1rem;
+  font-size: 90%;
   max-width: 1200px;
 }
 
@@ -27,16 +28,10 @@ nav a {
   display: block;
 }
 
-/* .profile-pic-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid red;
-} */
-
 .profile-pic {
   display: flex;
   align-items: center;
+  height: 4rem;
 }
 
 
@@ -46,15 +41,12 @@ nav a {
     margin: 0 auto;
     justify-content: space-between;
   }
-  nav ul {
-    border: 1px solid red;
-  }
 
   nav li:first-child {
     justify-content: flex-start;
     margin-right: auto;
     flex-basis: 40%;
-    border: 1px solid red;    
+    /* border: 1px solid red;     */
   }
 }
 

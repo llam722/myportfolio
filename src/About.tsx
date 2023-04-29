@@ -5,13 +5,9 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className="About">
+    <>
       <Nav/>
-      <div className="profile-pic-container">
-          <Link to='/' className='profile-pic'>
-          <img alt='profile' src='./profilepic.png' />
-          </Link>
-      </div>
+    <div className="About">
         <div className="asus-setup">
           <img alt='computer setup' src="./asus-setup.jpg" />
         </div>
@@ -55,7 +51,8 @@ const About = () => {
       
       </section>
       <Footer/>
-    </div>
+      </div>
+      </>
   )
 }
 
