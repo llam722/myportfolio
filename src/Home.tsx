@@ -13,9 +13,9 @@ const Home = () => {
         
         
         <section className='bio'>
-        <h2>
+        <h1>
         Software engineer 🧑‍💻, tinkerer 🛠 , and tech enthusiast 🖥️
-        </h2>
+        </h1>
         <p>
         I'm Louis, a software engineer and entrepreneur with a drive to contribute to open-source projects, attend tech events, and empower the development community. Contributor of <a href="https://www.reacti.me/" target='_blank' rel='noreferrer'>Reactime</a>.
         </p>
