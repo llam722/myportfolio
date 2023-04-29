@@ -18,8 +18,8 @@
 }
 
 .Home a:hover {
-   color:aqua;
-  border-bottom: 1px solid aqua;
+   color:rgb(180, 18, 216);
+  /* border-bottom: 1px solid aqua; */
 }
 
 .profile-pic-container {
@@ -87,7 +87,7 @@
   }
 
   .Home {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .profile-pic {
@@ -100,7 +100,7 @@
   gap: 2rem;
 }
   .picture-div img {
-    width: 18rem;
+    width: 16rem;
     overflow: hidden;
   }
 } 
