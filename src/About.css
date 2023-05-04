@@ -64,7 +64,6 @@
   max-width: 95%;
   max-height: 40%;
   object-fit: cover;
-  transform: rotate(-2deg);
   border-radius: 10px;
 }
 

@@ -16,6 +16,10 @@
    color:rgb(180, 18, 216);
 }
 
+.Contact h1 {
+  text-align: center;
+}
+
 .profile-pic-container {
   display: flex;
   justify-content: flex-start;
@@ -34,13 +38,10 @@
   max-height: 100%;
   object-fit: cover;
 }
-.header {
-  display: flex;
-  width: 100%;
-}
 
 .connect-container {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
   margin: 1rem;
@@ -51,7 +52,7 @@
 .connect {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
 }
 
 .connect p {
@@ -59,7 +60,7 @@
 }
 
 .connect-pic {
-  width: 50%;
+  width: 100%;
   padding: 1rem;
 }
 
@@ -81,31 +82,35 @@
   .profile-pic {
     width: 15vh;
   }
-} 
-
-@media (max-width:639px) {
-
-  .Contact {
-      overflow-x: hidden;
-  }
-    .about-me {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-
   .connect-container {
       flex-direction: column;
       align-items: left;
     }
-    
-    .connect {
-      order: 2;
-      width: 100%;
-  }
-  .connect-pic {
-    padding: 0;
-    order: 1;
+     .about-me {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
+} 
+
+@media (min-width:850px) {
+
+  .Contact {
+      overflow-x: hidden;
+  }
+ .connect {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.connect p {
+  color: #52525B;
+}
+
+.connect-pic {
+  width: 60%;
+  padding: 1rem;
+}
+  
 }
