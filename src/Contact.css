@@ -71,7 +71,7 @@
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 550px) {
 
   .Contact {
     max-width: 1200px;
@@ -81,18 +81,6 @@
   .profile-pic {
     width: 15vh;
   }
-} 
-
-@media (min-width: 640px) and (max-width:912px) {
-
-  .Contact {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .profile-pic {
-    width: 15vh;
-  }
-
 } 
 
 @media (max-width:639px) {
