@@ -26,7 +26,7 @@ const About = () => {
             MBTI – ISTP (Virtuoso)
             </li>
             <li>
-              Pet – Hunter (Pitbull)
+             🐕 Pet – Hunter (Pitbull)
             </li>
             <li>
               Food – Sushi, Hotpot, Italian
