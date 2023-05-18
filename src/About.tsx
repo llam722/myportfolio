@@ -23,18 +23,19 @@ const About = () => {
             <h4>Random Facts:</h4>
           <ul>
             <li>
-            MBTI – ISTP (Virtuoso)
+             🎯 MBTI – ISTP (Virtuoso)
             </li>
             <li>
              🐕 Pet – Hunter (Pitbull)
             </li>
             <li>
-              Food – Sushi, Hotpot, Italian
+             🍽 Food – Sushi, Hotpot, Italian
             </li>
             <li>
-              Books – Atomic Habits
+             📚 Books – Atomic Habits
             </li>
           </ul>
+          <br/>
           <img alt='la jolla' src="./la-jolla.png" />
           <img alt='husky puppy' src="./husky-puppy.jpg" />
         </div>
