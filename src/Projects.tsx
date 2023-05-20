@@ -16,7 +16,7 @@ const Projects = () => {
           <p className="textbox">
             Reactime is a Chrome extension and time-travel debugger for React that allows developers to record, track,
             and visualize
-            state changes. Reactime leverages React’s core reconciliation algorithm, React Fiber, to allow developers to
+            state changes. Reactime leverages React’s core reconciliation algorithm - React Fiber, to allow developers to
             time-travel using a fabricated history stack
             to previous states of their applications.
           </p>
