@@ -2,6 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from '../src/App';
 import 'testing-@testing-library/jest-dom'
+import { BrowserRouter } from 'react-router-dom';
+import userEvent from '@testing-library/user-event';
 
 // test('renders learn react link', () => {
 //   render(<App />);
@@ -10,10 +12,11 @@ import 'testing-@testing-library/jest-dom'
 // });
 
 
-describe('Home', () => {
+describe('App', () => {
   it('renders the app', () => {
-    render(<App />);
+    render(<App />, { wrapper: BrowserRouter });
 
-    
+
   })
+  
 })
