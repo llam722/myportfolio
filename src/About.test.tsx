@@ -4,7 +4,7 @@ import About from './About';
 
 
 describe('About', () => {
-  it('renders a paragraph', () => {
+  it('renders a heading', () => {
     render(<About />);
 
     // const heading = screen.getByRole('heading', {
