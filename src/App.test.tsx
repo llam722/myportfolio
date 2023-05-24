@@ -6,7 +6,7 @@ describe('App', () => {
 
   it('renders learn react link', () => {
     render(<BrowserRouter><App /></BrowserRouter>);
-    const linkElement = screen.getAllByText(/louis/i)
+    const linkElement = screen.getAllByText(/louis lam/i)
     expect(linkElement).toBeTruthy();
   })
 
