@@ -8,7 +8,7 @@ describe('Nav', () => {
   it('renders a list', () => {
     render(<BrowserRouter><Nav /></BrowserRouter>);
 
-    const list = screen.getAllByLabelText('li')
+    const list = screen.getAllByRole('listitem')
     expect(list).toHaveLength(6);
   })
 })
