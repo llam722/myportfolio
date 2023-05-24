@@ -4,9 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 
 describe('App', () => {
 
-  it('renders learn react link', () => {
+  it('should render text that has my name', async () => {
     render(<BrowserRouter><App /></BrowserRouter>);
-    const linkElement = screen.getAllByText(/louis lam/i)
+    const linkElement = await screen.findAllByText(/louis lam/i)
     expect(linkElement).toBeTruthy();
   })
 
