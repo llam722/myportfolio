@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 describe('Nav', () => {
   render(<BrowserRouter><Nav /></BrowserRouter>);
-  it('renders a list', () => {
+  it('should render a list', () => {
 
     const list = screen.getAllByRole('listitem')
     expect(list).toHaveLength(6);
