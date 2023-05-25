@@ -11,10 +11,10 @@ describe('About', () => {
     expect(heading).toBeInTheDocument();
   })
 
-    it('should render a paragraph', () => {
+    it('should render an image', () => {
       render(<About />);
       
-    const paragraph = screen.getAllByRole('img')
-    expect(paragraph).toHaveLength(6);
+    const image = screen.getAllByRole('img')
+    expect(image).toHaveLength(6);
   })
 })
