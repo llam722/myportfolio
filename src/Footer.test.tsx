@@ -4,20 +4,12 @@ import Footer from './Footer';
 
 
 describe('Footer', () => {
+  render(<Footer />);
 
-  it('should render a heading', () => {
-    render(<Footer />);
-    const heading = screen.getByText(/collaborate to innovate/i)
+ it('should render a list', () => {
 
-    expect(heading).toBeInTheDocument();
+    const list = screen.getAllByRole('listitem')
+    expect(list).toHaveLength(3);
   })
-  
-    it('should render an image', () => {
-      render(<Footer />);
-      
-    const image = screen.getAllByRole('img')
-    expect(image).toHaveLength(1);
-    })
-  
   
 })
