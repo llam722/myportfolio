@@ -11,5 +11,5 @@ describe('Footer', () => {
     const list = screen.getAllByRole('listitem')
     expect(list).toHaveLength(3);
   })
-  
+
 })
