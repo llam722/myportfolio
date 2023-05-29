@@ -15,7 +15,7 @@ describe('Projects', () => {
     render(<Projects />);
     
   const article = screen.getAllByRole('article')
-  expect(article).toHaveLength(1);
+  expect(article).toHaveLength(4);
   })
 
 })
