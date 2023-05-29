@@ -6,16 +6,16 @@ import Projects from './Projects';
 describe('Projects', () => {
   it('should render a heading', () => {
     render(<Projects />);
-    const heading = screen.getByText(/tinkerer/i)
+    const heading = screen.getByText(/recent work/i)
 
     expect(heading).toBeInTheDocument();
   })
 
-  it('should render an image', () => {
+  it('should render an article', () => {
     render(<Projects />);
     
-  const image = screen.getAllByRole('img')
-  expect(image).toHaveLength(5);
+  const article = screen.getAllByRole('article')
+  expect(article).toHaveLength(1);
   })
 
 })
