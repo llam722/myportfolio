@@ -18,7 +18,7 @@ const Projects = () => {
             and visualize
             state changes. Reactime leverages React’s core reconciliation algorithm - React Fiber, to allow developers to
             time-travel using a fabricated history stack
-            to previous states of their applications.
+            consisting of previous states of their applications.
           </p>
         </div>
 
