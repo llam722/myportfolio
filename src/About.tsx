@@ -37,7 +37,7 @@ const About = () => {
           </ul>
           <br/>
           <img alt='la jolla' src="./la-jolla.png" />
-          <img alt='husky puppy' src="./husky-puppy.jpg" />
+          {/* <img alt='husky puppy' src="./husky-puppy.jpg" /> */}
         </div>
         <div className="about-me-pic">
           <img alt='acura nsx' src="./louis-nsx.png"/>
