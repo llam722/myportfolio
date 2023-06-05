@@ -15,6 +15,6 @@ describe('About', () => {
       render(<About />);
       
     const image = screen.getAllByRole('img')
-    expect(image).toHaveLength(6);
+    expect(image).toHaveLength(5);
   })
 })
