@@ -24,7 +24,7 @@ const Nav = () => {
       <li><a href='https://github.com/llam722' target='_blank' rel="noreferrer">
           <i className="fa-brands fa-github"></i>
           <span className='sr-only'>Github</span></a></li>
-      <li><a href='./Louis_Lam_Resume.pdf' download="" className='button'>Resume</a></li>
+      {/* <li><a href='./Louis_Lam_Resume.pdf' download="" className='button'>Resume</a></li> */}
     
     </ul>
       </nav>

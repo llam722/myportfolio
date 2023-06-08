@@ -9,7 +9,7 @@ describe('Nav', () => {
   it('should render a list', () => {
 
     const list = screen.getAllByRole('listitem')
-    expect(list).toHaveLength(6);
+    expect(list).toHaveLength(5);
   })
 
 })
