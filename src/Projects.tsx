@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
 
         <img src="https://github.com/open-source-labs/reactime/raw/master/assets/new-reactime.gif"
-          alt="Screenshot of Reactime." onContextMenu={(e) => e.preventDefault()} />
+          alt="Screenshot of Reactime." onContextMenu={(e) => e.preventDefault()} loading="lazy" />
 
       </article>
 
@@ -42,7 +42,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <video autoPlay loop muted onContextMenu={(e) => e.preventDefault()}
+        <video loop muted onContextMenu={(e) => e.preventDefault()}
           src="https://res.cloudinary.com/djnwvbzzr/video/upload/v1676322831/Scrumify/Scrumify_hqnxjx.mov"
            />
 
