@@ -42,7 +42,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <video loop muted onContextMenu={(e) => e.preventDefault()}
+        <video autoPlay loop muted onContextMenu={(e) => e.preventDefault()}
           src="https://res.cloudinary.com/djnwvbzzr/video/upload/v1676322831/Scrumify/Scrumify_hqnxjx.mov"
            />
 
