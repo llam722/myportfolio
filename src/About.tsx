@@ -36,13 +36,13 @@ const About = () => {
             </li>
           </ul>
           <br/>
-          <img alt='la jolla' src="./la-jolla.png" />
+          <img alt='la jolla' src="./la-jolla.png" loading='lazy'/>
           {/* <img alt='husky puppy' src="./husky-puppy.jpg" /> */}
         </div>
         <div className="about-me-pic">
-          <img alt='acura nsx' src="./louis-nsx.png"/>
-          <img alt='silverlake sunset' src="./silverlake-sunset.jpg" />
-          <img className="hunter" alt='pitbull' src="./hunter.png" />
+          <img alt='acura nsx' src="./louis-nsx.png" loading='lazy'/>
+          <img alt='silverlake sunset' src="./silverlake-sunset.jpg loading='lazy'" />
+          <img className="hunter" alt='pitbull' src="./hunter.png"loading='lazy'/>
         </div>
         
 
