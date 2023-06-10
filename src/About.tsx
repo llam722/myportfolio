@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <div className="about-me-pic">
           <img alt='acura nsx' src="./louis-nsx.png" loading='lazy'/>
-          <img alt='silverlake sunset' src="./silverlake-sunset.jpg loading='lazy'" />
+          <img alt='silverlake sunset' src="./silverlake-sunset.jpg" loading='lazy' />
           <img className="hunter" alt='pitbull' src="./hunter.png"loading='lazy'/>
         </div>
         
