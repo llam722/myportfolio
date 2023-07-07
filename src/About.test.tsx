@@ -4,6 +4,7 @@ import About from './About';
 
 
 describe('About', () => {
+  beforeEach(() => {})
   it('should render a heading', () => {
     render(<About />);
     const heading = screen.getByText(/From Legos to Code: A Journey of Building and Problem-Solving/i)
