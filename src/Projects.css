@@ -66,3 +66,36 @@ color: black;
   color: black;
 }
 
+
+
+/* @media (min-width: 640px) and (max-width:912px) {
+
+  .Home {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .profile-pic {
+    width: 15vh;
+  }
+  .picture-div-container {
+  margin-top: 4rem;
+}
+.picture-div {
+  gap: 2rem;
+}
+  .picture-div img {
+    max-width: 100%;
+    overflow: auto;
+  }
+} 
+
+
+@media (max-width:639px) {
+  .Home {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .picture-div img {
+    overflow: hidden;
+}
+} */
