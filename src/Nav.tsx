@@ -18,9 +18,9 @@ const Nav = () => {
         <li><Link to='/contact'>
         Contact
         </Link></li>
-         <li><a href='https://www.linkedin.com/in/louis-lam7/' target='_blank' rel="noreferrer">
+         {/* <li><a href='https://www.linkedin.com/in/louis-lam7/' target='_blank' rel="noreferrer">
           <i className="fa-brands fa-linkedin" aria-hidden='true'></i>
-          <span className='sr-only'>LinkedIn</span></a></li>
+          <span className='sr-only'>LinkedIn</span></a></li> */}
       <li><a href='https://github.com/llam722' target='_blank' rel="noreferrer">
           <i className="fa-brands fa-github"></i>
           <span className='sr-only'>Github</span></a></li>
