@@ -27,7 +27,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <img src="https://github.com/open-source-labs/reactime/raw/master/assets/new-reactime.gif"
+        <img src="./reactime.png"
           alt="Screenshot of Reactime." onContextMenu={(e) => e.preventDefault()} loading="lazy" />
 
       </article>
