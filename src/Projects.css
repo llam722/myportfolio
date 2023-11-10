@@ -1,9 +1,6 @@
 .projects {
   display: flex;
   max-width: 90%;
-}
-
-.projects {
   padding: 4rem 1rem;
 }
 

@@ -11,7 +11,7 @@ const Projects = () => {
     <div className='projects'>
       <section>
         <h2>Recent work</h2>
-        <h4>Here are some open-source projects that I have worked on. I'm constantly seeking new ideas and opportunities to collaborate, so please don't hesitate to reach out and contribute or share your thoughts.</h4>
+        <h4>Here are some recent projects that I have worked on. I'm constantly seeking new ideas and opportunities to collaborate, so please don't hesitate to reach out and contribute or share your thoughts.</h4>
 
       <article className="work">
 
