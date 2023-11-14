@@ -10,7 +10,7 @@ const Home = () => {
         Software engineer 🧑‍💻, tinkerer 🛠 , and tech enthusiast 🖥️
         </h1>
         <p>
-        I'm <strong>Louis Lam</strong>, a software engineer and entrepreneur with a drive to contribute to open-source projects, attend tech events, and empower the development community. Contributor of <a href="https://www.reacti.me/" target='_blank' rel='noreferrer'>Reactime</a>.
+        I'm <strong>Louis Lam</strong>, a software engineer and entrepreneur with a drive to contribute to open-source projects, attend tech events, and empower the development community. Currently @ <a href="https://indema.co/" target='_blank' rel='noreferrer'>Indema</a>.
         </p>
       </section>
         <div className="picture-div-container">
