@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
         <p>
           <small>
-            &copy; 2023 Louis Lam. All rights reserved.
+          &copy; {new Date().getFullYear()} Louis Lam. All rights reserved.
           </small>
         </p>
     </footer>
