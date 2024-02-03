@@ -42,8 +42,8 @@ const About = () => {
         </div>
         <div className="about-me-pic">
           <img alt='acura nsx' src="https://res.cloudinary.com/djnwvbzzr/image/upload/v1686353055/Portfolio/louis-nsx_vtxmqt.png" loading='lazy'/>
-          <img alt='silverlake sunset' src="https://res.cloudinary.com/djnwvbzzr/image/upload/v1686353055/Portfolio/silverlake-sunset_rjdmi8.jpg" loading='lazy' />
           <img className="hunter" alt='pitbull' src="https://res.cloudinary.com/djnwvbzzr/image/upload/v1686353061/Portfolio/hunter_ameqib.png"loading='lazy'/>
+          <img alt='silverlake sunset' src="https://res.cloudinary.com/djnwvbzzr/image/upload/v1686353055/Portfolio/silverlake-sunset_rjdmi8.jpg" loading='lazy' />
         </div>
         
 
