@@ -1,3 +1,7 @@
+.work {
+  display: flex;
+  font-family: 'Varela', sans-serif;
+}
 .projects {
   display: flex;
   justify-content: center;
@@ -20,6 +24,10 @@ color: black;
 .projects h4 {
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  width: 50%;
 }
 
 .textbox {
@@ -47,13 +55,15 @@ color: black;
   margin-top: 1rem;
   border-radius: 25px;
   object-fit: cover;
-  width: 100%;
+  width: 50%;
+  border: 1px solid lightgray;
 }
 
 .projects video {
   margin-top: 1rem;
   border-radius: 25px;
-  width: 100%;
+  border: 1px solid lightgray;
+  width: 50%;
 }
 
 .work {
