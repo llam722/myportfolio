@@ -115,6 +115,6 @@
     overflow-x: hidden;
   }
   .picture-div img {
-    overflow: hidden;
+    width: 45%;
 }
 }
