@@ -31,7 +31,7 @@ nav a {
 .profile-pic {
   display: flex;
   align-items: center;
-  height: 4rem;
+  height: 10rem;
 }
 
 
@@ -46,6 +46,13 @@ nav a {
     justify-content: flex-start;
     margin-right: auto;
     flex-basis: 40%;
-    /* border: 1px solid red;     */
+  }
+}
+
+@media (max-width: 639px) {
+  .profile-pic {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 }
