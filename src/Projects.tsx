@@ -1,11 +1,6 @@
 import './Projects.css'
-import { useEffect } from 'react'
-
 
 const Projects = () => {
-
-  useEffect(() => {
-  })
 
   return (
     <div className='projects'>
