@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="Home">
       <section className="bio">
-        <h1>Software engineer, Tinkerer, Tech Enthusiast </h1>
+        <h1>Software engineer, Tinkerer, Enthusiast </h1>
         <p>
           I'm <strong>Louis Lam</strong>, a software engineer and entrepreneur
           with a drive to contribute to open-source projects, attend tech
