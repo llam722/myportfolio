@@ -1,5 +1,4 @@
 import "./Home.css";
-import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -37,7 +36,6 @@ const Home = () => {
           ></img>
         </div>
       </div>
-      {/* <Projects/> */}
     </div>
   );
 };
