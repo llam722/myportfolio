@@ -113,6 +113,10 @@ color: black;
   .work {
     flex-direction: column;
     width: 100%;
+    padding: 0;
+  }
+  .projects {
+    padding: 2rem 1rem;
   }
   .text {
     width: 100%;
