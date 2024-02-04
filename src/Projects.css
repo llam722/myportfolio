@@ -83,6 +83,25 @@ color: black;
   color: black;
 }
 
+.work-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.work-links button {
+  padding: .5rem;
+  border-radius: 10px;
+  border: 1px black;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.work-links a {
+  text-decoration: none;
+}
 
 
 @media (min-width: 640px) and (max-width:912px) {

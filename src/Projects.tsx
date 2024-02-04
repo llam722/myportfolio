@@ -6,18 +6,14 @@ const Projects = () => {
       <section>
         <h2>Recent work</h2>
         <h5>
-          Here are some projects that I have worked on. I'm constantly
-          seeking new ideas and opportunities to collaborate, so please don't
-          hesitate to reach out.
+          Here are some projects that I have worked on. I'm constantly seeking
+          new ideas and opportunities to collaborate, so please don't hesitate
+          to reach out.
         </h5>
 
         <article className="work">
           <div className="text">
-            <h3 className="reactime">
-              <a href="https://www.reacti.me/" target="_blank" rel="noreferrer">
-                Reactime
-              </a>
-            </h3>
+            <h3 className="reactime">Reactime</h3>
             <h4>State Management and Debugging Tool for React</h4>
             <p className="textbox">
               Reactime is a Chrome extension and time-travel debugger for React
@@ -27,6 +23,30 @@ const Projects = () => {
               fabricated history stack consisting of previous states of their
               applications.
             </p>
+            <div className="work-links">
+              <button>
+                <i className="fa fa-link"></i>
+                <a
+                  href="https://www.reacti.me/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  &nbsp; Website
+                  <span className="sr-only">Website</span>
+                </a>
+              </button>
+              <button>
+                <i className="fa-brands fa-github"></i>
+                <a
+                  href="https://github.com/open-source-labs/Reactime"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  &nbsp; Github
+                  <span className="sr-only">Github</span>
+                </a>
+              </button>
+            </div>
           </div>
 
           <img
