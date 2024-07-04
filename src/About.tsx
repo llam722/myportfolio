@@ -21,7 +21,7 @@ const About = () => {
             based on an open-source language called AutoIt.
           </p>
           <p>
-            As I grew older, I realized that working on cars and custom PCs
+            As time went on, I realized that working on cars and custom PCs
             involved more than just hands-on mechanical skills - they also
             required coding skills to program and optimize various features.
             This led me to deepen my knowledge of coding and pursue further
