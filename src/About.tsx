@@ -42,7 +42,7 @@ const About = () => {
             <li>🎯 MBTI – ISTP (Virtuoso)</li>
             <li>🐕 Pet – Hunter (Pitbull)</li>
             <li>🍽 Food – Sushi, Hotpot, Italian</li>
-            <li>📚 Books – Atomic Habits</li>
+            <li>📚 Books – Atomic Habits, The Redwall Collection</li>
           </ul>
           <br />
           <img alt="la jolla" src="./la-jolla.png" loading="lazy" />
