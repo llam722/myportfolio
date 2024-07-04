@@ -8,7 +8,7 @@ const Home = () => {
         <p>
           I'm <strong>Louis Lam</strong>, a software engineer and entrepreneur
           with a drive to contribute to open-source projects, attend tech
-          events, and empower the development community. Currently @ Indema.
+          events, and empower the development community. Currently @ ProperSys.
         </p>
       </section>
 
